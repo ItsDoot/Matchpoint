@@ -1,0 +1,28 @@
+{
+    "plugins": [
+        {
+            "loader": "java_plain",
+            "id": "kitpvp",
+            "name": "KitPvP",
+            "version": "1.0.0-SNAPSHOT",
+            "main-class": "com.expansemc.matchpoint.kitpvp.KitPvP",
+            "description": "A KitPvP plugin built with Matchpoint.",
+            "links": {
+                "source": "https://github.com/ExpanseMC/KitPvP",
+                "issues": "https://github.com/ExpanseMC/KitPvP/issues"
+            },
+            "contributors": [
+                {
+                    "name": "doot",
+                    "description": "Lead Developer"
+                }
+            ],
+            "dependencies": [
+                {
+                    "id": "spongeapi",
+                    "version": "8.0.0"
+                }
+            ]
+        }
+    ]
+}
